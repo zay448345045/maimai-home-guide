@@ -1,0 +1,6 @@
+1.Create SDDT.bin with 16 bytes of 0 written in the iv key
+2.Decrypt only the first 16 bytes once with fsdecrypt or fstool
+3.The first 16 bytes of the decrypted file is the iv key
+1.创建SDDT.bin，在iv键中写入16个字节的0
+2.用fsdecrypt或fstool只对前16个字节进行一次解密
+3.解密后的文件的前16个字节是iv密钥
